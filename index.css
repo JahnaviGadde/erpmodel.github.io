@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Charis SIL', serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 12%;
+    height: 100%;
+    background: #0641a0;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0, 0.5);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+    bottom: 0;
+}
+
+.wrapper.sidebar ul li .fas {
+    width: 25px;
+    color: #ffffff;
+}
+
+.wrapper .sidebar ul li a {
+    color: #ffffff;
+    display: block;
+}
+
+.wrapper .sidebar ul li :hover {
+    text-decoration: underline;
+}
+
+.wrapper .sidebar ul li :hover a {
+    color: #fff;
+}
+
+@media only screen and (max-width: 1050px) {
+    .wrapper.sidebar ul li a {
+        display: none;
+    }
+}
+
+.horizontal_nav_bar {
+    background: #464e5c;
+    text-align: center;
+    text-decoration: none;
+    height: 10%;
+}
+
+.horizontal_nav_bar ul {
+    display: inline-block;
+}
+
+.horizontal_nav_bar ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.horizontal_nav_bar ul li a {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.horizontal_nav_bar ul li :hover {
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.horizontal_nav_bar ul li :hover a {
+    color: #fff;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.login {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3rem 5rem -2rem rgba(0, 0, 0, 0.2);
+}
+
+.form-signin-heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-control {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 1px;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    top: 26px;
+    padding: 14px 30px 14px 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    pointer-events: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.left-addon input {
+    padding-left: 65px;
+}
+
+.form-signin input {
+    margin-bottom: 15px;
+    height: 44px;
+}
+
+.form-signin {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submit-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
